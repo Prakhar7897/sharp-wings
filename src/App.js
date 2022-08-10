@@ -16,6 +16,9 @@ import ViewUser from'./components/ViewUser';
 import ViewAdmin from'./components/ViewAdmin';
 import CreateAdmin from './components/CreateAdmin';
 import Footer from './components/Footer';
+import PassengerList from './components/PassengerList'
+import FlightDetails from './components/FlightDetails';
+
 
 library.add(faTrash,faEdit,faPlus,faList)
 
@@ -45,7 +48,11 @@ function App() {
           <Route path='/about' component={About}></Route>
           <Route path='/login' component={Login}></Route>
           <Route path='/adlogin' component={AdLogin}></Route>
-          <Route path='/signup' component={Registration}></Route>
+          <Route path='/register_user' component={Registration}></Route>
+          <Route path='/passenger' component={PassengerList}></Route>
+          <Route path='/fdetails' component={FlightDetails}></Route>
+          
+
 
           <Route path='/admin'  component={Admin}></Route>
           <Route path='/user'  component={User}></Route>

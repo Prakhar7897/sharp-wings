@@ -20,7 +20,11 @@ import {
                     <NavBtnLink to='/'>Home</NavBtnLink>
                     <NavBtnLink to='/about'>About us</NavBtnLink>
                     <NavBtnLink to='/admin'>Admin</NavBtnLink>
-                    <NavLink to='/user'>User</NavLink>
+                    <NavBtnLink to='/user'>User</NavBtnLink>
+                    <NavBtnLink to='/passenger'>Passenger</NavBtnLink>
+                   
+                    {/* <NavBtnLink to='/fdetails'>FlightDetails</NavBtnLink> */}
+                    
 
                 </NavMenu>
                 <NavBtn>
@@ -31,7 +35,7 @@ import {
                             Admin Login
                         </NavDropdown.Item>
                     </NavDropdown>
-                    <NavBtnLink to='/signup'>SignUp</NavBtnLink>
+                    <NavBtnLink to='/register_user'>SignUp</NavBtnLink>
                 </NavBtn>
             </Nav>
         </>

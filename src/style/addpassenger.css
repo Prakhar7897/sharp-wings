@@ -1,0 +1,25 @@
+/* .card{
+
+    margin-top: 330px;
+    border: none;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: rgb(152, 165, 174);
+    background: linear-gradient(90deg , rgb(145, 174, 195) 0%, hsla(260, 29%, 36%, 1) 100%);
+  } */
+
+ .contentBx1
+ {
+    margin-top: -100px;
+ }
+ .contentBx1 h1{
+    
+        color: rgba(227, 240, 237, 0.923);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+ }
