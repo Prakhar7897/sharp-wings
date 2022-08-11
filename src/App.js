@@ -16,8 +16,11 @@ import ViewUser from'./components/ViewUser';
 import ViewAdmin from'./components/ViewAdmin';
 import CreateAdmin from './components/CreateAdmin';
 import Footer from './components/Footer';
-import PassengerList from './components/PassengerList'
+import PassengerList from './components/PassengerList';
 import FlightDetails from './components/FlightDetails';
+import TicketBooking from './components/TicketBooking';
+import TicketDetails from './components/TicketDetails';
+import UserProfile from './components/UserProfile';
 
 
 library.add(faTrash,faEdit,faPlus,faList)
@@ -50,7 +53,10 @@ function App() {
           <Route path='/adlogin' component={AdLogin}></Route>
           <Route path='/register_user' component={Registration}></Route>
           <Route path='/passenger' component={PassengerList}></Route>
-          <Route path='/fdetails' component={FlightDetails}></Route>
+          <Route path='/fightDetails/:id' component={FlightDetails}></Route>
+          <Route path='/booking' component={TicketBooking}></Route>
+          <Route path='/pdetails' component={TicketDetails}></Route>
+          <Route path='/userProfile' component={UserProfile}></Route>
           
 
 

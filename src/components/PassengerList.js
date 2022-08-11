@@ -66,7 +66,26 @@ In the next line, we are just updating the value of the status attribute, so the
             
           
             <div>    
-                <FlightDetails></FlightDetails>       
+                <div>
+            <div className='card4'>
+                <h2> Flight Details:</h2>
+
+                <div className="row">
+                    <label> Flight Id: </label>
+                     
+                </div>
+            
+                <div className="row">
+                    <label> From: </label>
+                   
+                </div>
+                <div className="row">
+                    <label> To: </label>
+                     
+                    </div>
+
+                    </div>
+                     
                 <AddPassenger onAdd={this.addToDo}></AddPassenger>
                 <div className="contentBx1">
                 <h1>Passenger Details </h1>
@@ -106,6 +125,7 @@ In the next line, we are just updating the value of the status attribute, so the
                     </tbody>
                 </table>
                 </div>
+            </div>
             </div>
             
         );

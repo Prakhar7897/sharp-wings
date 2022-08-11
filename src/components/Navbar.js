@@ -18,12 +18,16 @@ import {
                 <Bars />
                 <NavMenu>
                     <NavBtnLink to='/'>Home</NavBtnLink>
-                    <NavBtnLink to='/about'>About us</NavBtnLink>
+                    {/* <NavBtnLink to='/about'>About us</NavBtnLink> */}
                     <NavBtnLink to='/admin'>Admin</NavBtnLink>
                     <NavBtnLink to='/user'>User</NavBtnLink>
                     <NavBtnLink to='/passenger'>Passenger</NavBtnLink>
+                    <NavBtnLink to='/booking'>TicketBooking</NavBtnLink>
+                    <NavBtnLink to='/pdetails'>TicketDetails</NavBtnLink>
+                    <NavBtnLink to='/userProfile'>UserProfile</NavBtnLink>
+                    {/* <NavBtnLink to='/flightDetails'>FlightDetails</NavBtnLink> */}
                    
-                    {/* <NavBtnLink to='/fdetails'>FlightDetails</NavBtnLink> */}
+                   
                     
 
                 </NavMenu>
